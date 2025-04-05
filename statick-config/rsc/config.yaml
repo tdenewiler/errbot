@@ -24,8 +24,6 @@ levels:
         flags: ""
       make:
         flags: "-Wall -Wextra -Wuninitialized -Woverloaded-virtual -Wnon-virtual-dtor -Wold-style-cast -Wno-unused-variable -Wno-unused-but-set-variable -Wno-unused-parameter"
-      mypy:
-        flags: "--ignore-missing-imports"
       pyflakes:
         flags: ""
       pylint:
